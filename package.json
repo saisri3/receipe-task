@@ -1,5 +1,4 @@
 {
-  "homepage": "http://saisri3.github.io/task",
   "name": "recipe_app",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +10,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.1.3",
-    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0",
     "react-dom": "^17.0.2",
@@ -21,8 +19,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -45,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "http://saisri3.github.io/receipe",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
